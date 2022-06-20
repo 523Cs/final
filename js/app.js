@@ -126,5 +126,5 @@ list.addEventListener("click", function(event) {
   }
 
   // add item to localstorage
-  localstorage.setItem("TODO", JSON.stringify(LIST));
+  localStorage.setItem("TODO", JSON.stringify(LIST));
 });
