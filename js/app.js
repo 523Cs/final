@@ -87,7 +87,7 @@ document.addEventListener("keyup", function(even) {
       });
 
       // add item to localstorage
-      localstorage.setItem("TODO", JSON.stringify(LIST));
+      localStorage.setItem("TODO", JSON.stringify(LIST));
 
       id++;
     }
